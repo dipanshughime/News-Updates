@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
 .App {
   text-align: center;
 }
+.gFont{
+  font-family: 'Chivo Mono', monospace;
+  font-size: 40px;
+  color: rgb(255, 255, 255);}
 
+.navcolo{
+  background-color:  #010101;
+}
+.boxcolo{
+  background-color: #d2d2d2;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-color:  #010101;
+  background-image: linear-gradient(180deg, #010101 24%, #555555db 54%, #010101 100%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
